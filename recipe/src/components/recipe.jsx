@@ -64,7 +64,6 @@ export const Recipe =()=>{
             <Div>
                 <button onClick={sortListlowtohigh}>Sort low to high</button>
                 <button onClick={sortListhightolow}>Sort high to low</button>
-
                 {
                     list.map((e,i)=>(
                         <RecipeItem key={e.id}{...e}/>
